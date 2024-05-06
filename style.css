@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Scribble&display=swap');
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Scribble&family=Workbench&display=swap');
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Seymour+One&display=swap');
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap');
+/*  */
+
+body{
+    background-color: rgb(0, 0, 100);
+    color: white;
+    width: 98vw;
+    height: 200vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 40px;
+    width: 98%;
+    
+}
+.sec1 h1{
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.sec1 p{
+    font-size: 70px;
+    color: red;
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*  */
+.sec15{
+    background-color: rgba(255, 0, 0, 0.4);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.sec15 h3{
+    color: black;
+    font-size: 70px;
+    color: aqua;
+    letter-spacing: 25px;
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.sec15 h2{
+    font-size: 70px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.sec15 h2 span{
+    color: aqua;
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+/*  */
+.sec2 div{
+    position: absolute;
+    border: 2px solid black ;
+    top: 1px;
+    right: 1px;
+    width: max-content;
+    background-color: rgba(162, 0, 255,.4);
+    border-radius: 50px;
+    margin: 9px;
+    border: 1px solid white;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.ul{
+    margin: 10px;
+    list-style: decimal inside;
+}
+ul li,p{
+    margin: 15px 0;
+    font-size: 30px;
+}
+.ul1{
+    list-style: decimal inside;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline solid orange;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin:  50px 0;
+}
+/*  */
+.social{
+    background-color: rgb(0, 132, 255);
+    background-image: linear-gradient(rgb(0, 132, 255) 70%, transparent 70% 100%);
+    height:200px;
+    /* width: 100%; */
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 250px 0px ;
+    padding: 20px;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+.social a{
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vvvv{
+    transition: 0.8s;
+}
+.vvvv:hover{
+    color: red;
+
+}
+.container1{
+    display: flex;
+    column-gap: 100px;
+}
+/* .divoh{
+    margin-left: 100px;
+} */
+.nava{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    margin-top: 10px;
+    top: 30px;
+    background-color: rgba(255, 0, 0, 0.5);
+    
+
+}
+.nava ul{
+    display: flex;
+    gap: 40px;
+
+}
+.nava li{
+    list-style: none;
+}
+.nava h1{
+    margin-left: 30px;
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: red;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+
+}
+details{
+    color: red;
+}
+summary{
+    color: transparent;
+}
+.abdo{
+    font-size: 50px;
+    margin-left: 30px;
+    position: absolute;
+    top: 32px;
+    right: 700px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: 1s;
+    color: red;
+    padding: 5px;
+}
+.abdo:hover{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+/* body:hover .sec2 div{
+    opacity: 0;
+    display: flex;
+    flex-wrap: wrap;
+} */
+/*  */
+/* الضغط على عنصر */
+/*  
+.hidden {
+    opacity: 0;
+} */
+/*  */
